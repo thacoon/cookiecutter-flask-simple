@@ -1,0 +1,57 @@
+# Blacklist
+*
+
+
+# Whitelist
+
+# Git
+!.gitignore
+!.gitkeep
+
+# Allow recursive
+!*/
+
+# Python files
+!*.py
+
+# Shell scripts
+!*.sh
+
+# Frontend
+!app/templates/*.html
+!app/static/*.css
+!app/static/*.less
+!app/static/*.sass
+!app/static/*.js
+
+# Security.txt
+!app/static/robots.txt
+!app/static/pgp-key.txt
+!app/static/security.txt
+!app/static/security.txt.sig
+
+# Conf files
+!*.conf
+
+# CI/CD
+!*.yml
+
+# Docker files
+!Dockerfile
+!.dockerignore
+
+# Markdown
+!*.md
+
+# Pip-Tools and requirements
+!*.in
+!*requirements/*.txt
+
+# Syntax testing tools
+!.pylintrc
+
+
+# Blacklist again
+
+# Still ignore secrets
+secrets.conf

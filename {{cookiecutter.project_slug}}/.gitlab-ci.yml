@@ -1,0 +1,15 @@
+test:
+  image: python:3.6
+
+  variables:
+    CONFIG: 'gitlab'
+    SECRET_KEY: 'testing_secret_key'
+
+  script:
+    - apt-get update -qy
+    - apt-get install -qy python-dev python-pip
+    - pip install pip-tools
+    - chmod 700 requirements/update.sh
+    - ./requirements/update.sh update
+    - coverage run --source='.' -m unittest
+    - coverage report -m --skip-covered
