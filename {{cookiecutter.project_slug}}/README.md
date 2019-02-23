@@ -1,9 +1,6 @@
 LinkList
 ========
 
-{{cookiecutter.pipeline_status}}
-{{cookiecutter.coverage_report}}
-
 ## Installation
 
 ```bash

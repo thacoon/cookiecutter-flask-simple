@@ -1,9 +1,8 @@
 test:
-  image: python:3.6
+  image: python:3.7
 
   variables:
     CONFIG: 'gitlab'
-    SECRET_KEY: 'testing_secret_key'
 
   script:
     - apt-get update -qy

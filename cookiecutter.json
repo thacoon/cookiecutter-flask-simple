@@ -1,5 +1,3 @@
 {
-  "project_slug": "Your Project",
-  "pipeline_status": "[![pipeline status](https://gitlab.com/you/your-project/badges/master/pipeline.svg)](https://gitlab.com/you/your-project/commits/master)",
-  "coverage_report": "[![coverage report](https://gitlab.com/you/your-project/badges/master/coverage.svg)](https://gitlab.com/you/your-project/commits/master)"
+  "project_slug": "Your Project"
 }
